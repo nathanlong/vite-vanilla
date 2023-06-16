@@ -7,10 +7,22 @@
     <title>Vite Vanilla</title>
   </head>
   <body>
-    <h1>Vite Vanilla 🍦</h1>
-    <h2>ESM Modules + CSS</h2>
-    <p>This starter implements the <a href="https://www.viget.com/articles/how-does-viget-javascript/">Viget Module</a> pattern.</p>
-    <p>Sometimes vanilla is the best flavor! 🍦</p>
+    <div id="app">
+      <div class="logos">
+        <a href="https://vitejs.dev" target="_blank">
+          <img src="/vite.svg" class="logo" alt="Vite logo" />
+        </a>
+        <span class="logo-plus">+</span>
+        <a class="logo-emoji" href="https://github.com/nathanlong/vite-vanilla" target="_blank">
+          <span class="">🍦</span>
+        </a>
+      </div>
+      <h1>Vanilla Vite</h1>
+      <p>Sometimes Vanilla is the best flavor! Vanilla CSS + Viget Modules.</p>
+      <div class="card" data-module="counter">
+        <button id="counter" type="button"></button>
+      </div>
+    </div>
 
     <script type="module" src="/main.js"></script>
   </body>
